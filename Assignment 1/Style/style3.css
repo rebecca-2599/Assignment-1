@@ -12,6 +12,12 @@ header, footer {
   padding: 10px;
 }
 
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #131212;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
