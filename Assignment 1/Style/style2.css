@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-h1,
+header,
 footer {
   background: #f57c44;
   padding: 20px;
@@ -10,8 +10,14 @@ footer {
   margin: 0;
 }
 
-h1 {
+header {
   color: #0a0a0a;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #131212;
 }
 
 .form-container {
