@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+footer {
+  background: #f57c44;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color: #0a0a0a;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px; /* adds space between input and button */
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #d4124d;
+  color: rgb(255, 249, 249);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#validation-message {
+  color: red;
+  margin-top: 10px;
+}
+
+#grade-output {
+  font-weight: bold;
+  margin-top: 10px;
+}

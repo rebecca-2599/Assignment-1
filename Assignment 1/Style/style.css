@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+header,
+footer {
+  background: #f57c44;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #131212;
+}
+
+#delayed-img {
+  display: none;
+  width: 450px;
+  height: 550px;
+}
