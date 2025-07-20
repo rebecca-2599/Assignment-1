@@ -1,7 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
   padding: 20px;
-  background: #f0f8ff;
 }
 
 header, footer {
@@ -9,6 +10,12 @@ header, footer {
   background: #f57c44;
   color: rgb(8, 8, 8);
   padding: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #131212;
 }
 
 main {
